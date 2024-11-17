@@ -42,6 +42,10 @@ int main() {
         float fahrenheit = (temperature * 9 / 5) + 32;
         printf("%.2f degree Fahrenheit",fahrenheit);
     } 
+        //If conversionDirection is 'F' or 'f', perform the Celsius-to-Fahrenheit conversion.
+//If conversionDirection is 'C' or 'c', perform the Fahrenheit-to-Celsius conversion.
+//If conversionDirection is neither of these, output "Invalid character for conversion".
+
     
     else if (conversionDirection == 'C' || conversionDirection == 'c') {
         float celsius = (temperature - 32) * 5 / 9;
